@@ -1,0 +1,9 @@
+name: Helpboard
+author: Avexiie
+version: 1.0.2
+main: com.github.avexiie.Main
+description: Ini hanya sebuah revisi
+softdepend: [PlaceholderAPI]
+commands:
+  hb:
+    description: Helpboard main command

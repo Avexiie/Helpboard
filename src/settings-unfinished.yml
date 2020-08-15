@@ -1,0 +1,116 @@
+# Helpboard by Avexiie
+# rep: github : Avexiie/Helpboard
+# v: 1.0.2
+
+settings:
+  # Safe-mode determines if scoreboard is synchronized with the server (true) or asynchronized (false)
+  # Synchronized (safe-mode: true) is more stable and robust
+  # Asynchronized (safe-mode: false) is more faster but can cause strange problems in some cases
+  safe-mode: false
+  # If the server version is 1.13 or higher, enable longline.
+  # true: you can use 128 characters per line (1.13 and up)
+  # false: you can use 32 characters per line (1.12 and down)
+  longline: false
+
+enabled-boards: # Which boards should be loaded, 'board' will automatically be loaded!
+  - 'combat'
+
+'board':
+  title:
+    interval: 3
+    liner:
+      - '&4> &c&lHelpboard &4<'
+      - '&4> &c&lHelpboard &4<'
+      - '&4> &c&lcoreboar &4<'
+      - '&4> &c&loreboa &4<'
+      - '&4> &c&leb &4<'
+      - '&4> &4<'
+      - '&4> &c&leb &4<'
+      - '&4> &c&loreboa &4<'
+      - '&4> &c&lcoreboar &4<'
+      - '&4> &4&lHelpboard &4<'
+      - '&4> &4&lHelpboard &4<'
+      - '&4> &c&lHelpboard &4<'
+      - '&4> &4&lHelpboard &4<'
+      - '&4> &c&lHelpboard &4<'
+      - '&4> &4&lHelpboard &4<'
+      - '&4> &c&lHelpboard &4<'
+      - '&4> &c&lHelpboard &4<'
+      - '&4> &c&lHelpboard &4<'
+  rows:
+    1:
+      interval: 5
+      liner:
+        - '&c------------------------'
+        - '&4------------------------'
+    2:
+      interval: 80
+      liner:
+        - '&cPlayer name:'
+        - '&cAuthor:'
+    3:
+      interval: 80
+      liner:
+        - '%player_name%'
+        - 'HelloitsRien'
+    4:
+      interval: 80
+      liner:
+        - ''
+    5:
+      interval: 80
+      liner:
+        - '&cPing:'
+    6:
+      interval: 5
+      liner:
+        - '%player_ping% ms'
+    7:
+      interval: 80
+      liner:
+        - ''
+    '8':
+      interval: 80
+      liner:
+        - '&cUptime:'
+    '9':
+      interval: 20
+      liner:
+        - '%server_uptime%'
+    10:
+      interval: 80
+      liner:
+        - ''
+    11:
+      interval: 80
+      liner:
+        - 'This is an awesome plugin'
+    12:
+      interval: 80
+      liner:
+        - 'made by Avexiie.'
+    50:
+      interval: 5
+      liner:
+        - '&c------------------------'
+        - '&4------------------------'
+'combat':
+  title:
+    interval: 3
+    liner:
+      - '&4> &c&lCombat &4<'
+  rows:
+    1:
+      interval: 5
+      liner:
+        - '&c------------------------'
+        - '&4------------------------'
+    2:
+      interval: 80
+      liner:
+        - '&cIn combat!:'
+    50:
+      interval: 5
+      liner:
+        - '&c------------------------'
+        - '&4------------------------'
